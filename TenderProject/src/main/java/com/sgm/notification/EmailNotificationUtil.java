@@ -11,7 +11,7 @@ public class EmailNotificationUtil {
     private static final String SMTP_HOST = "smtp.gmail.com";
     private static final String SMTP_PORT = "587";
     private static final String SENDER_EMAIL = "adiitya7476007@gmail.com";
-    private static final String SENDER_PASSWORD = "jqdjrhsbfmykplrg";
+    private static final String SENDER_PASSWORD = "";//Sender mail password
 
     public static void sendBidAcceptanceEmail(String recipientEmail,String tid) {
         Properties props = new Properties();
